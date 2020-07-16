@@ -9,19 +9,19 @@ DateApproved: 6/10/2020
 ---
 # Working with MongoDB
 
-Visual Studio Code has great support for working with [MongoDB](https://www.mongodb.com/what-is-mongodb) databases. Through the [Azure CosmosDB](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb) extension, you can create, manage and query MongoDB databases from within VS Code.
+Visual Studio Code has great support for working with [MongoDB](https://www.mongodb.com/what-is-mongodb) databases. Through the [Azure Databases](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb) extension, you can create, manage and query MongoDB databases from within VS Code.
 
 ## Install the extension
 
-MongoDB support for VS Code is provided by the [Azure Cosmos DB](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb) extension. To install the Cosmos DB extension, open the Extensions view by pressing `kb(workbench.view.extensions)` and search for 'cosmos' to filter the results. Select the Microsoft **Azure Cosmos DB** extension.
+MongoDB support for VS Code is provided by the [Azure Databases](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb) extension. To install the Azure Databases extension, open the Extensions view by pressing `kb(workbench.view.extensions)` and search for 'azure databases' to filter the results. Select the Microsoft **Azure Databases** extension.
 
-![Select Cosmos DB extension](images/mongodb/install-cosmosdb-extension.png)
+![Select Azure Databases extension](images/mongodb/install-cosmosdb-extension.png)
 
 ## Connect to MongoDB
 
-Once you've installed the Cosmos DB extension and reloaded VS Code, you'll notice there is a new **Azure** Activity Bar view. Click on the Azure view and you'll see the Cosmos DB Explorer.
+Once you've installed the Azure Databases extension, you'll notice there is a new **Azure** Activity Bar view. Click on the Azure view and you'll see the Azure Databases Explorer.
 
-![cosmos db explorer](images/mongodb/cosmosdb-explorer.png)
+![Azure Databases explorer](images/mongodb/cosmosdb-explorer.png)
 
 To connect to a MongoDB database, expand the **Attached Database Accounts** and click **Attach Database Account**, and choose the **MongoDB** from the Database Account API drop-down list.
 
